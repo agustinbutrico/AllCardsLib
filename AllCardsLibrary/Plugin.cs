@@ -1,10 +1,10 @@
 ﻿using BepInEx;
 using HarmonyLib;
-using UnityEngine;
 
 namespace AllCardsLibrary
 {
-    [BepInPlugin("com.AgusBut.allcardslibrary", "AllCardsLibrary", "1.0.0")]
+    [BepInPlugin("AgusBut.AllCardsLibrary", "AllCardsLibrary", "1.0.0")]
+    [BepInDependency("AgusBut.AT2DLib.Cards")]
     public class Plugin : BaseUnityPlugin
     {
         public static Plugin Instance { get; private set; }
@@ -15,18 +15,10 @@ namespace AllCardsLibrary
             Instance = this;
             Log = base.Logger;
 
-            var harmony = new Harmony("AgusBut.BetterPauseMenu");
+            var harmony = new Harmony("AgusBut.AllCardsLibrary");
             harmony.PatchAll();
 
-            // Attach the CardPoolStatusLogger with hotkey trigger
-            GameObject obj = new GameObject("CardPoolStatusLogger");
-            obj.AddComponent<CardPoolStatusLogger>();
-            DontDestroyOnLoad(obj);
-
-            // Attach the CardDataDumper with hotkey support
-            GameObject dumperObj = new GameObject("CardDataDumper");
-            dumperObj.AddComponent<CardDataDumper>();
-            DontDestroyOnLoad(dumperObj);
+            AllCardsLibraryAPI.LoadAllCards(); // Always needed for card data
         }
     }
 }

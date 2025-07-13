@@ -1,10 +1,10 @@
-﻿using BepInEx;
+using BepInEx;
 using HarmonyLib;
 using UnityEngine;
 
-namespace AllCardsLibrary
+namespace AllCardsLibDebug
 {
-    [BepInPlugin("com.AgusBut.allcardslibrary", "AllCardsLibrary", "1.0.0")]
+    [BepInPlugin("com.AgusBut.AllCardsLibDebug", "AllCardsLibDebug", "1.0.0")]
     public class Plugin : BaseUnityPlugin
     {
         public static Plugin Instance { get; private set; }
@@ -15,7 +15,7 @@ namespace AllCardsLibrary
             Instance = this;
             Log = base.Logger;
 
-            var harmony = new Harmony("AgusBut.BetterPauseMenu");
+            var harmony = new Harmony("AgusBut.AllCardsLibDebug");
             harmony.PatchAll();
 
             // Attach the CardPoolStatusLogger with hotkey trigger

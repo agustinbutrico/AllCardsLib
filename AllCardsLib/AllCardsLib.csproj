@@ -19,8 +19,8 @@
             <HintPath>libs\Assembly-CSharp-firstpass.dll</HintPath>
 			<Private>false</Private>
         </Reference>
-        <Reference Include="AT2DLib.Cards">
-            <HintPath>libs\AT2DLib.Cards.dll</HintPath>
+        <Reference Include="CardsTexturesLib.Cards">
+            <HintPath>libs\CardsTexturesLib.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
         <Reference Include="BepInEx">
@@ -31,6 +31,10 @@
 			<HintPath>libs\Newtonsoft.Json.dll</HintPath>
 			<Private>false</Private>
         </Reference>
+        <Reference Include="TexturesLib.Shared">
+            <HintPath>..\..\CardsCreator\CardsCreator\libs\TexturesLib.Shared.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
         <Reference Include="UnityEngine">
             <HintPath>libs\UnityEngine.dll</HintPath>
 			<Private>false</Private>

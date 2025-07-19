@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = "ManaSiphon",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.ManaSiphon,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 }
             });
         }

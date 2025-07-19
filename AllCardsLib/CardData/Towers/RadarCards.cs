@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "RadarHealth1", "RadarArmor1", "RadarShield1", "RadarRange1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -29,11 +29,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Radar",
                     UnlockName = "RadarHealth1",
                     UnlockedByDefault = true,
-                    Unlocks = new List<string> { "RadarHealth2", "RadarBleed1" },
+                    Unlocks = new List<string> { "RadarBleed1", "RadarHealth2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "RadarHealth3" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "RadarDamage1" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -68,11 +68,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Radar",
                     UnlockName = "RadarArmor1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "RadarArmor2", "RadarBurn1" },
+                    Unlocks = new List<string> { "RadarBurn1", "RadarArmor2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "RadarArmor3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "RadarDamage2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -107,11 +107,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Radar",
                     UnlockName = "RadarShield1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "RadarShield2", "RadarPoison1" },
+                    Unlocks = new List<string> { "RadarPoison1", "RadarShield2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -122,9 +122,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "RadarShield3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -135,9 +135,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "RadarDamage3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -148,9 +148,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "RadarRange2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -161,9 +161,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -174,9 +174,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "RadarBurn2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -187,9 +187,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -200,9 +200,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "RadarPoison2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -213,9 +213,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -226,9 +226,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "RadarBleed2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -239,9 +239,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -252,9 +252,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalHealth7" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -265,9 +265,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalArmor7" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -278,9 +278,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalShield7" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -291,9 +291,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -304,9 +304,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -317,9 +317,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Better Radar",
@@ -329,9 +329,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Radar",
@@ -341,9 +341,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Radar",
@@ -353,9 +353,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Radar",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Radar,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

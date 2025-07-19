@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GoldRush" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Mine",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.Mine,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Mine",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.Mine,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 }
             });
         }

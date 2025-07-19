@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Savings1" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ManaBank",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.ManaBank,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Savings2" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ManaBank",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.ManaBank,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ManaBank",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.ManaBank,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 }
             });
         }

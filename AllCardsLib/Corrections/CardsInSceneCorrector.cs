@@ -1,25 +1,21 @@
 ﻿using HarmonyLib;
-using Microsoft.Win32;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace AllCardsLib
+namespace AllCardsLib.Corrections
 {
     internal class CardsInSceneCorrector
     {
         private int researchBreakthroughCounter = 0;
-        private static readonly FieldInfo unlockNameField = AccessTools.Field(typeof(UpgradeCard), "unlockName");
+        internal static readonly FieldInfo unlockNameField = AccessTools.Field(typeof(UpgradeCard), "unlockName");
         private static readonly Dictionary<string, UpgradeCard> cardsMissingDependency = new Dictionary<string, UpgradeCard>();
-
 
         internal void CorrectGameSceneCards()
         {
-            UpgradeCard[] inSceneCards = GameObject.FindObjectsOfType<UpgradeCard>();
+            UpgradeCard[] inSceneCards = UnityEngine.Object.FindObjectsOfType<UpgradeCard>();
 
             if (inSceneCards == null || inSceneCards.Length == 0)
             {
@@ -32,14 +28,20 @@ namespace AllCardsLib
 
             researchBreakthroughCounter = 0;
 
-            foreach (var card in inSceneCards)
+            foreach (UpgradeCard card in inSceneCards)
             {
-                CorrectGameSceneCard(card);
+                try
+                {
+                    CorrectGameSceneCard(card);
+                }
+                catch (Exception ex)
+                {
+                    Plugin.Log.LogError($"Exception while processing card '{card?.name}': {ex}");
+                }
             }
             AttachMissingDependencies();
-            
-            SyncCardUnlockedFromRegistry();
-            SyncCardUnlockedFromScene();
+
+            SyncCardUnclocked.SyncCardUnlockedStatus();
         }
 
         private void CorrectGameSceneCard(UpgradeCard card)
@@ -86,63 +88,10 @@ namespace AllCardsLib
                 card.title = cleanTitle;
             }
 
-            if (currentUnlockName == "GlobalCritLevel2" || currentUnlockName == "Frugal6" || currentUnlockName == "MonsterDestruction2" || currentUnlockName == "MonsterDestruction3")
+            if ((currentUnlockName == "GlobalCritLevel2" || currentUnlockName == "Frugal6" || currentUnlockName == "MonsterDestruction2" || currentUnlockName == "MonsterDestruction3")
+                && !cardsMissingDependency.ContainsKey(currentUnlockName))
             {
                 cardsMissingDependency.Add(currentUnlockName, card);
-            }
-        }
-
-        private void SyncCardUnlockedFromScene()
-        {
-            foreach (var upgradeCard in GameObject.FindObjectsOfType<UpgradeCard>())
-            {
-                string upgradeTitle = upgradeCard.title;
-                string upgradeUnlockName = (string)unlockNameField.GetValue(upgradeCard);
-                bool upgradeUnlocked = upgradeCard.unlocked;
-
-                var match = Plugin.CardDisplayDataCollection.AllCards
-                    .FirstOrDefault(c => c.Title == upgradeTitle && c.UnlockName == upgradeUnlockName);
-
-                if (match != null)
-                {
-                    match.Unlocked = upgradeUnlocked;
-                }
-            }
-        }
-
-        private void SyncCardUnlockedFromRegistry()
-        {
-            const string registryPath = @"Software\Die of Death Games\Rogue Tower";
-            using (RegistryKey key = Registry.CurrentUser.OpenSubKey(registryPath))
-            {
-                if (key == null)
-                {
-                    Plugin.Log.LogWarning("Registry path not found: " + registryPath);
-                    return;
-                }
-
-                string[] valueNames = key.GetValueNames();
-
-                foreach (var card in Plugin.CardDisplayDataCollection.AllCards)
-                {
-                    if (string.IsNullOrEmpty(card.UnlockName))
-                        continue;
-
-                    string matchName = valueNames
-                        .FirstOrDefault(name =>
-                            name.Contains("_h") &&
-                            name.Split(new[] { "_h" }, 2, StringSplitOptions.None)[0] == card.UnlockName);
-
-                    if (matchName != null)
-                    {
-                        object rawValue = key.GetValue(matchName);
-
-                        if (rawValue is int intValue && intValue == 1)
-                        {
-                            card.Unlocked = true;
-                        }
-                    }
-                }
             }
         }
 
@@ -319,7 +268,7 @@ namespace AllCardsLib
 
         private void AttachDependency(string parentUnlockName, string childUnlockName)
         {
-            foreach (var card in GameObject.FindObjectsOfType<UpgradeCard>())
+            foreach (var card in UnityEngine.Object.FindObjectsOfType<UpgradeCard>())
             {
                 if ((string)unlockNameField.GetValue(card) == parentUnlockName &&
                     cardsMissingDependency.TryGetValue(childUnlockName, out UpgradeCard childCard))

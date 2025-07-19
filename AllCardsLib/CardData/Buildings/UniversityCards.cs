@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Scholarships1" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "University",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.University,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Scholarships2", "Reasearch1" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "University",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.University,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Scholarships3", "Reasearch2" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "University",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.University,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Reasearch3" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "University",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.University,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -70,9 +70,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "University",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.University,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "University",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.University,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "University",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.University,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 }
             });
         }

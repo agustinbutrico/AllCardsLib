@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ParticleCannonHealth1", "ParticleCannonArmor1", "ParticleCannonShield1", "ParticleCannonRange1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -29,11 +29,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "ParticleCannon",
                     UnlockName = "ParticleCannonHealth1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "ParticleCannonHealth2", "ParticleCannonBleed1" },
+                    Unlocks = new List<string> { "ParticleCannonBleed1", "ParticleCannonHealth2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ParticleCannonHealth3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ParticleCannonDamage1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -68,11 +68,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "ParticleCannon",
                     UnlockName = "ParticleCannonArmor1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "ParticleCannonArmor2", "ParticleCannonBurn1" },
+                    Unlocks = new List<string> { "ParticleCannonBurn1", "ParticleCannonArmor2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ParticleCannonArmor3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ParticleCannonDamage2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -107,11 +107,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "ParticleCannon",
                     UnlockName = "ParticleCannonShield1",
                     UnlockedByDefault = true,
-                    Unlocks = new List<string> { "ParticleCannonShield2", "ParticleCannonPoison1" },
+                    Unlocks = new List<string> { "ParticleCannonPoison1", "ParticleCannonShield2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -122,9 +122,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "ParticleCannonShield3" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -135,9 +135,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "ParticleCannonDamage3" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -148,9 +148,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ParticleCannonRange2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -161,9 +161,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -174,9 +174,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ParticleCannonBleed2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -187,9 +187,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -200,9 +200,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "ParticleCannonPoison2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -213,9 +213,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -226,9 +226,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ParticleCannonBurn2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -239,9 +239,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -252,9 +252,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalHealth9" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -265,9 +265,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalArmor9" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -278,9 +278,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalShield9" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -291,9 +291,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -304,9 +304,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -317,9 +317,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Better Particles",
@@ -329,9 +329,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Particles",
@@ -341,9 +341,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Particles",
@@ -353,9 +353,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "ParticleCannon",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.ParticleCannon,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

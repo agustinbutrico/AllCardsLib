@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterDestruction2" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterDamageBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterDestruction3" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterDamageBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterDamageBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 }
             });
         }

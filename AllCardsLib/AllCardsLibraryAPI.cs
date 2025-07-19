@@ -1,8 +1,4 @@
-﻿using AllCardsLib.CardData.Buildings;
-using AllCardsLib.CardData.Buffs;
-using AllCardsLib.CardData.DOT;
-using AllCardsLib.CardData.Monsters;
-using AllCardsLib.CardData.Towers;
+﻿using AllCardsLib.Corrections;
 using CardsShared;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,64 +8,10 @@ namespace AllCardsLib
 {
     public static partial class AllCardsLibAPI
     {
-        /// <summary>
-        /// Registers all card sets into Plugin.CardDisplayDataCollection.AllCards.
-        /// Called by LoadAllCards, do not call directly unless needed.
-        /// </summary>
-        internal static void RegisterAllCards()
-        {
-            // Register all Buff cards
-            CardsBuffCards.Register();
-            CritsBuffCards.Register();
-            GoldBuffCards.Register();
-            ManaBuffCards.Register();
-            TowerBuffCards.Register();
-            TreeBuffCards.Register();
-
-            // Register all Buildings cards
-            HauntedHouseCards.Register();
-            ManaBankCards.Register();
-            ManaSiphonCards.Register();
-            MineCards.Register();
-            UniversityCards.Register();
-
-            // Register all DOT cards
-            DOTBleedCards.Register();
-            DOTBurnCards.Register();
-            DOTPoisonCards.Register();
-
-            // Register all Monsters cards
-            GoldDebuffCards.Register();
-            MonstersArmorBuffCards.Register();
-            MonstersDamageBuffCards.Register();
-            MonstersHasteBuffCards.Register();
-            MonstersHealthBuffCards.Register();
-            MonstersMoveSpeedBuffCards.Register();
-            MonstersShieldBuffCards.Register();
-            MonstersTowerDamageBuffCards.Register();
-
-            // Register all towers cards
-            BallistaCards.Register();
-            CannonCards.Register();
-            EncampmentCards.Register();
-            FlameThrowerCards.Register();
-            FrostKeepCards.Register();
-            LookoutCards.Register();
-            MonumentCards.Register();
-            MortarCards.Register();
-            ObeliskCards.Register();
-            ParticleCannonCards.Register();
-            PoisonSprayerCards.Register();
-            RadarCards.Register();
-            SawbladeCards.Register();
-            TeslaCoilCards.Register();
-            VampireLairCards.Register();
-        }
-
         public static void LoadAllCards()
         {
             if (Plugin.CardDisplayDataCollection.AllCards.Count == 0)
-                RegisterAllCards();
+                CardData.CardsRegisterManager.RegisterAllCards();
 
             foreach (var card in Plugin.CardDisplayDataCollection.AllCards)
             {
@@ -87,46 +29,36 @@ namespace AllCardsLib
         public static List<CardDisplayData> GetAllCards() => Plugin.CardDisplayDataCollection.AllCards.ToList();
 
         public static List<CardDisplayData> FilterCards(
-            CardCategory? category = null,
-            CardAcquisitionType? acquisitionType = null,
-            string associatedTowerOrBuilding = null,
+            Category? category = null,
+            AcquisitionType? acquisitionType = null,
+            Subcategory? subcategory = null,
             bool? unlocked = null)
         {
             return Plugin.CardDisplayDataCollection.AllCards
                 .Where(card =>
                     (category == null || card.Category == category.Value) &&
-                    (acquisitionType == null || card.AcquisitionType == acquisitionType.Value) &&
-                    (associatedTowerOrBuilding == null || card.AssociatedTowerOrBuilding == associatedTowerOrBuilding) &&
+                    (acquisitionType == null || (card.AcquisitionType & acquisitionType.Value) != 0) &&
+                    (subcategory == null || card.Subcategory == subcategory) &&
                     (unlocked == null || card.Unlocked == unlocked.Value)
                 ).ToList();
         }
 
-        public class CardNode
+        public static CardDisplayData GetCard(string cardTitle = null, string cardUnlockName = null)
         {
-            public CardDisplayData Card;
-            public List<CardNode> Children = new List<CardNode>();
+            if (string.IsNullOrEmpty(cardTitle) && string.IsNullOrEmpty(cardUnlockName))
+            {
+                Plugin.Log.LogWarning("GetCard called without cardTitle or cardUnlockName.");
+                return null;
+            }
+            return Plugin.CardDisplayDataCollection.AllCards
+                .FirstOrDefault(card =>
+                    (cardTitle != null && card.Title == cardTitle) ||
+                    (cardUnlockName != null && card.UnlockName == cardUnlockName));
         }
 
-        public static List<CardNode> BuildCardTrees(List<CardDisplayData> cards)
+        public static void SyncCardUnlockedStatus()
         {
-            var lookup = cards.ToDictionary(c => c.UnlockName);
-            var reverseLookup = new HashSet<string>(cards.SelectMany(c => c.Unlocks));
-            var roots = cards.Where(c => !reverseLookup.Contains(c.UnlockName)).ToList();
-
-            var nodeMap = cards.ToDictionary(
-                c => c.UnlockName,
-                c => new CardNode { Card = c });
-
-            foreach (var node in nodeMap.Values)
-            {
-                foreach (var unlock in node.Card.Unlocks)
-                {
-                    if (nodeMap.TryGetValue(unlock, out var child))
-                        node.Children.Add(child);
-                }
-            }
-
-            return roots.Select(r => nodeMap[r.UnlockName]).ToList();
+            SyncCardUnclocked.SyncCardUnlockedStatus();
         }
     }
 }

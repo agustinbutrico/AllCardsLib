@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterQuickness2" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHasteBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterQuickness3" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHasteBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterQuickness4" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHasteBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHasteBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 }
             });
         }

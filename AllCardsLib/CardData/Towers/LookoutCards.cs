@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "LookoutHealth1", "LookoutArmor1", "LookoutShield1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "LookoutHealth2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "LookoutHealth3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "LookoutDamage1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -70,9 +70,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "LookoutArmor2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "LookoutArmor3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "LookoutDamage2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -109,9 +109,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "LookoutShield2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -122,9 +122,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "LookoutShield3" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -135,9 +135,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "LookoutDamage3" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -148,9 +148,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalHealth12" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -161,9 +161,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalArmor12" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -174,9 +174,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalShield12" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Monster Studies",
@@ -186,9 +186,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> {  },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Monster Studies",
@@ -198,9 +198,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> {  },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Monster Studies",
@@ -210,9 +210,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> {  },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Better Range Finding",
@@ -222,9 +222,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Range Finding",
@@ -234,9 +234,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Range Finding",
@@ -246,9 +246,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Lookout",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Lookout,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

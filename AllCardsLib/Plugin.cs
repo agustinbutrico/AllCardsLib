@@ -1,6 +1,8 @@
-﻿using BepInEx;
+﻿using AllCardsLib.Corrections;
+using BepInEx;
 using CardsShared;
 using HarmonyLib;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,6 +23,12 @@ namespace AllCardsLib
             public static List<CardDisplayData> AllCards { get; } = new List<CardDisplayData>();
         }
 
+        public static event Action OnCardSyncComplete;
+        internal static void RaiseOnCardSyncComplete()
+        {
+            OnCardSyncComplete?.Invoke();
+        }
+
         private void Awake()
         {
             Instance = this;
@@ -31,25 +39,26 @@ namespace AllCardsLib
 
             AllCardsLibAPI.LoadAllCards(); // Always needed for card data
 
-            SceneManager.sceneLoaded += OnSceneLoaded; // Add correction on scene load
+            SceneManager.activeSceneChanged += OnActiveSceneChanged;
 
             Logger.LogInfo("AllCardsLib loaded successfully.");
         }
 
-        private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+        private void OnActiveSceneChanged(Scene oldScene, Scene newScene)
         {
-            if (scene.name == "GameScene")
+            if (newScene.name == "GameScene")
             {
                 CardsInSceneCorrector corrector = new CardsInSceneCorrector();
                 corrector.CorrectGameSceneCards();
+
+                RaiseOnCardSyncComplete();
             }
 
-            if (scene.name == "MainMenu")
+            if (newScene.name == "MainMenu")
             {
-                Plugin.Instance.StartCoroutine(WaitThenCorrectMainMenuCards());
+                Instance.StartCoroutine(WaitThenCorrectMainMenuCards());
             }
         }
-
 
         private IEnumerator WaitThenCorrectMainMenuCards()
         {
@@ -58,11 +67,7 @@ namespace AllCardsLib
 
             CardsInSceneCorrector corrector = new CardsInSceneCorrector();
             corrector.CorrectMainMenuCards();
-        }
-
-        private void OnDestroy()
-        {
-            SceneManager.sceneLoaded -= OnSceneLoaded;
+            UpgradeButtonFixer.FixAllButtons();
         }
     }
 }

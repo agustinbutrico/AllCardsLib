@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth2" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth3" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth4" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth5" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -70,9 +70,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth6" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth7" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth8" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -109,9 +109,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth9" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -122,9 +122,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth10" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -135,9 +135,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth11" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -148,9 +148,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth12" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -161,9 +161,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth13" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -174,9 +174,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth14" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -187,9 +187,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth15" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -200,9 +200,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth16" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -213,9 +213,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth17" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -226,9 +226,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth18" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -239,9 +239,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth19" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -252,9 +252,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "MonsterHealth20" },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -265,9 +265,9 @@ namespace AllCardsLib.CardData.Monsters
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Monster,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Monster,
+                    Subcategory = Subcategory.MonsterHealthBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 }
             });
         }

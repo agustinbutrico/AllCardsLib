@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "VampireLairHealth1", "VampireLairArmor1", "VampireLairShield1", "VampireLairRange1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -29,11 +29,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "VampireLair",
                     UnlockName = "VampireLairHealth1",
                     UnlockedByDefault = true,
-                    Unlocks = new List<string> { "VampireLairHealth2", "VampireLairBleed1" },
+                    Unlocks = new List<string> { "VampireLairBleed1", "VampireLairHealth2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "VampireLairHealth3" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "VampireLairDamage1" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -68,11 +68,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "VampireLair",
                     UnlockName = "VampireLairArmor1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "VampireLairArmor2", "VampireLairBurn1" },
+                    Unlocks = new List<string> { "VampireLairBurn1", "VampireLairArmor2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "VampireLairArmor3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "VampireLairDamage2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -107,11 +107,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "VampireLair",
                     UnlockName = "VampireLairShield1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "VampireLairShield2", "VampireLairPoison1" },
+                    Unlocks = new List<string> { "VampireLairPoison1", "VampireLairShield2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -122,9 +122,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "VampireLairShield3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -135,9 +135,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "VampireLairDamage3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -148,9 +148,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "VampireLairRange2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -161,9 +161,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "VampireLairRange3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -174,9 +174,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -187,9 +187,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "VampireLairBurn2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -200,9 +200,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -213,9 +213,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "VampireLairBleed2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -226,9 +226,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -239,9 +239,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "VampireLairPoison2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -252,9 +252,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -265,9 +265,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -278,9 +278,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -291,22 +291,22 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
                     Title = "Gothic Horror",
                     Description = "All vampire lairs gain +15% crit chance",
                     SpriteName = "VampireLair",
-                    UnlockName = "VampireLairDamage2",
+                    UnlockName = "VampireLairDamage1",
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalHealth13", "VampireLairHealing1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -317,22 +317,22 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalArmor13", "VampireLairHealing2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
                     Title = "Gothic Horror",
                     Description = "All vampire lairs gain +15% crit chance",
                     SpriteName = "VampireLair",
-                    UnlockName = "VampireLairDamage2",
+                    UnlockName = "VampireLairDamage3",
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalShield13", "VampireLairHealing3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -343,9 +343,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -356,9 +356,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -369,9 +369,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Better Vampires",
@@ -381,9 +381,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Vampires",
@@ -393,9 +393,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Vampires",
@@ -405,9 +405,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "VampireLair",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.VampireLair,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

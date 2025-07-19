@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Seance1" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "HauntedHouse",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.HauntedHouse,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Seance2" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "HauntedHouse",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.HauntedHouse,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Seance3" },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "HauntedHouse",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.HauntedHouse,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Buildings
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Building,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "HauntedHouse",
+                    Category = Category.Building,
+                    Subcategory = Subcategory.HauntedHouse,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
             });
         }

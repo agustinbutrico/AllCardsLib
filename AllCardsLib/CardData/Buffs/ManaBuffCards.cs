@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Sourcery2", "LifeSteal1" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Sourcery3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "LifeSteal2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -70,9 +70,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "LifeSteal3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ManaGen2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -109,9 +109,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ManaGen3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -122,9 +122,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -135,9 +135,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "MaxMana2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -148,9 +148,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "MaxMana3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -161,9 +161,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "MaxMana4" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -174,9 +174,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "MaxMana5" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -187,9 +187,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.ManaBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

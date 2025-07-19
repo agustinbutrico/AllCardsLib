@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "MonsterBonusGold2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "MonsterBonusGold3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GoldDrop2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -70,9 +70,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GoldDrop3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GoldDrop4" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GoldDrop5" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -109,9 +109,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -122,9 +122,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "StartGold2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -135,9 +135,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "StartGold3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -148,9 +148,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "StartGold4" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -161,9 +161,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "StartGold5" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -174,9 +174,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "StartGold6" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -187,9 +187,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "StartGold7" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -200,9 +200,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "StartGold8" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -213,9 +213,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "StartGold9" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -226,9 +226,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "StartGold10" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -239,9 +239,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.GoldBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

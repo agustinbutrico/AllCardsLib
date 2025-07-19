@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "EncampmentHealth1", "EncampmentArmor1", "EncampmentShield1", "EncampmentRange1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -29,11 +29,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Landmine",
                     UnlockName = "EncampmentHealth1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "EncampmentHealth2", "EncampmentBleed1" },
+                    Unlocks = new List<string> { "EncampmentBleed1", "EncampmentHealth2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "EncampmentHealth3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "EncampmentDamage1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -70,9 +70,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "EncampmentBleed2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalHealth11", "MaxHaste1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -109,9 +109,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalArmor11", "MaxHaste2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -122,9 +122,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "GlobalShield11", "MaxHaste3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -135,9 +135,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "EncampmentBurn2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -148,9 +148,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -159,11 +159,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Landmine",
                     UnlockName = "EncampmentArmor1",
                     UnlockedByDefault = true,
-                    Unlocks = new List<string> { "EncampmentArmor2", "EncampmentBurn1" },
+                    Unlocks = new List<string> { "EncampmentBurn1", "EncampmentArmor2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -174,9 +174,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "EncampmentArmor3" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -187,9 +187,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "EncampmentDamage2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -200,9 +200,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "EncampmentRange2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -213,9 +213,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "EncampmentRange3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -226,9 +226,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -237,11 +237,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Landmine",
                     UnlockName = "EncampmentShield1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "EncampmentShield2", "EncampmentPoison1" },
+                    Unlocks = new List<string> { "EncampmentPoison1", "EncampmentShield2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -252,9 +252,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "EncampmentShield3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -265,9 +265,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "EncampmentDamage3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -278,9 +278,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "EncampmentPoison2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -291,9 +291,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -304,9 +304,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -317,9 +317,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -330,9 +330,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Monster Studies",
@@ -342,9 +342,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> {  },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Monster Studies",
@@ -354,9 +354,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> {  },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Monster Studies",
@@ -366,9 +366,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> {  },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Better Mines",
@@ -378,9 +378,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Mines",
@@ -390,9 +390,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Mines",
@@ -402,9 +402,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Encampment",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Encampment,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

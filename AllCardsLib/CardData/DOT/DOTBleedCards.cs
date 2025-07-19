@@ -17,9 +17,9 @@ namespace AllCardsLib.CardData.DOT
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "DOTBleed2", "BleedExtraDamage1", "BleedCrits" },
                     Unlocked = false,
-                    Category = CardCategory.DOT,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.DOT,
+                    Subcategory = Subcategory.DOTBleed,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -30,9 +30,9 @@ namespace AllCardsLib.CardData.DOT
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "DOTAll1" },
                     Unlocked = false,
-                    Category = CardCategory.DOT,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.DOT,
+                    Subcategory = Subcategory.DOTBleed,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -43,9 +43,9 @@ namespace AllCardsLib.CardData.DOT
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "BleedExtraDamage2", "BleedPop1" },
                     Unlocked = false,
-                    Category = CardCategory.DOT,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.DOT,
+                    Subcategory = Subcategory.DOTBleed,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -56,9 +56,9 @@ namespace AllCardsLib.CardData.DOT
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "BleedExtraDamage3" },
                     Unlocked = false,
-                    Category = CardCategory.DOT,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.DOT,
+                    Subcategory = Subcategory.DOTBleed,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -69,9 +69,9 @@ namespace AllCardsLib.CardData.DOT
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.DOT,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.DOT,
+                    Subcategory = Subcategory.DOTBleed,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -82,9 +82,9 @@ namespace AllCardsLib.CardData.DOT
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.DOT,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.DOT,
+                    Subcategory = Subcategory.DOTBleed,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -95,9 +95,9 @@ namespace AllCardsLib.CardData.DOT
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "BleedPop2" },
                     Unlocked = false,
-                    Category = CardCategory.DOT,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.DOT,
+                    Subcategory = Subcategory.DOTBleed,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -108,9 +108,9 @@ namespace AllCardsLib.CardData.DOT
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.DOT,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.DOT,
+                    Subcategory = Subcategory.DOTBleed,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Make them Suffer",
@@ -120,9 +120,9 @@ namespace AllCardsLib.CardData.DOT
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.DOT,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.DOT,
+                    Subcategory = Subcategory.DOTBleed,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 }
             });
         }

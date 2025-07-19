@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ObeliskHealth1", "ObeliskArmor1", "ObeliskShield1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -29,11 +29,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Obelisk",
                     UnlockName = "ObeliskHealth1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "ObeliskHealth2", "ObeliskBleed1" },
+                    Unlocks = new List<string> { "ObeliskBleed1", "ObeliskHealth2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -42,11 +42,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Obelisk",
                     UnlockName = "ObeliskHealth2",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "ObeliskHealth3", "ObeliskManaUsage1" },
+                    Unlocks = new List<string> { "ObeliskManaUsage1", "ObeliskHealth3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ObeliskDamage1" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -68,11 +68,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Obelisk",
                     UnlockName = "ObeliskArmor1",
                     UnlockedByDefault = true,
-                    Unlocks = new List<string> { "ObeliskArmor2", "ObeliskBurn1" },
+                    Unlocks = new List<string> { "ObeliskBurn1", "ObeliskArmor2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -81,11 +81,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Obelisk",
                     UnlockName = "ObeliskArmor2",
                     UnlockedByDefault = true,
-                    Unlocks = new List<string> { "ObeliskArmor3", "ObeliskTimeOnTarget1" },
+                    Unlocks = new List<string> { "ObeliskTimeOnTarget1", "ObeliskArmor3" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "ObeliskDamage2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -107,11 +107,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Obelisk",
                     UnlockName = "ObeliskShield1",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "ObeliskShield2", "ObeliskPoison1" },
+                    Unlocks = new List<string> { "ObeliskPoison1", "ObeliskShield2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -120,11 +120,11 @@ namespace AllCardsLib.CardData.Towers
                     SpriteName = "Obelisk",
                     UnlockName = "ObeliskShield2",
                     UnlockedByDefault = false,
-                    Unlocks = new List<string> { "ObeliskShield3", "ObeliskRange1" },
+                    Unlocks = new List<string> { "ObeliskRange1", "ObeliskShield3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -135,9 +135,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ObeliskDamage3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -148,9 +148,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ObeliskBleed2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -161,9 +161,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -174,9 +174,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ObeliskPoison2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -187,9 +187,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -200,9 +200,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -213,9 +213,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "ObeliskBurn2" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -226,9 +226,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -239,9 +239,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ObeliskManaUsage2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -252,9 +252,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ObeliskManaUsage3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -265,9 +265,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -278,9 +278,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ObeliskRange2" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -291,9 +291,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "ObeliskRange3" },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -304,9 +304,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -317,9 +317,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "GlobalHealth8" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -330,9 +330,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "GlobalArmor8" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData
                 {
@@ -343,9 +343,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "GlobalShield8" },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Monster Studies",
@@ -355,9 +355,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> {  },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Monster Studies",
@@ -367,9 +367,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> {  },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Monster Studies",
@@ -379,9 +379,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = true,
                     Unlocks = new List<string> {  },
                     Unlocked = true,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreUnlocksInRun,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreUnlocksInRun,
                 },
                 new CardDisplayData {
                     Title = "Better Lasers",
@@ -391,9 +391,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Lasers",
@@ -403,9 +403,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData {
                     Title = "Better Lasers",
@@ -415,9 +415,9 @@ namespace AllCardsLib.CardData.Towers
                     UnlockedByDefault = false,
                     Unlocks = new List<string> {  },
                     Unlocked = false,
-                    Category = CardCategory.Tower,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = "Obelisk",
+                    Category = Category.Tower,
+                    Subcategory = Subcategory.Obelisk,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

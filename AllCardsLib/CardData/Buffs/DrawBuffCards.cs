@@ -3,7 +3,7 @@ using CardsShared;
 
 namespace AllCardsLib.CardData.Buffs
 {
-    public static class CardsBuffCards
+    public static class DrawBuffCards
     {
         internal static void Register()
         {
@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "CardDraw2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.DrawBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "CardDraw3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.DrawBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Treasure" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.DrawBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "CardFreq2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.DrawBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -70,9 +70,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.DrawBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.DrawBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

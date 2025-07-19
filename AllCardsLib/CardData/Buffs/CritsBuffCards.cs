@@ -18,9 +18,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "GlobalCritLevel2" },
                     Unlocked = true,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.CritsBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -31,9 +31,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { "GlobalCritLevel3" },
                     Unlocked = true,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.CritsBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = true,
                     Unlocks = new List<string> { },
                     Unlocked = true,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.CritsBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 }
             });
         }

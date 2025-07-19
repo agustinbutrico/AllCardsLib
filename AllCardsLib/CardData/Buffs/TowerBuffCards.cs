@@ -18,22 +18,22 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Fortification2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
                     Title = "Fortification II",
                     Description = "Increase main tower's max health by +3",
                     SpriteName = "TowerIcon",
-                    UnlockName = "Fortification1",
+                    UnlockName = "Fortification2",
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Fortification3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -44,9 +44,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "Fortification4" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -57,9 +57,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.AlwaysInRun,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.AlwaysInRun,
                 },
                 new CardDisplayData
                 {
@@ -70,9 +70,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerRepair2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -83,9 +83,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerRepair3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 },
                 new CardDisplayData
                 {
@@ -96,9 +96,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                    Subcategory = Subcategory.TowerBuff,
+                    Category = Category.Buff,
                 },
                 new CardDisplayData
                 {
@@ -109,11 +109,10 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerHealth2" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
-                }
-                ,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                },
                 new CardDisplayData
                 {
                     Title = "Fortification II",
@@ -123,11 +122,10 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerHealth3" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
-                }
-                ,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                },
                 new CardDisplayData
                 {
                     Title = "Fortification III",
@@ -137,11 +135,10 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerHealth4" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
-                }
-                ,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                },
                 new CardDisplayData
                 {
                     Title = "Fortification IV",
@@ -151,11 +148,10 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerHealth5" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
-                }
-                ,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                },
                 new CardDisplayData
                 {
                     Title = "Fortification V",
@@ -165,11 +161,10 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerHealth6" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
-                }
-                ,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                },
                 new CardDisplayData
                 {
                     Title = "Fortification VI",
@@ -179,11 +174,10 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerHealth7" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
-                }
-                ,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                },
                 new CardDisplayData
                 {
                     Title = "Fortification VII",
@@ -193,11 +187,10 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerHealth8" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
-                }
-                ,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                },
                 new CardDisplayData
                 {
                     Title = "Fortification VIII",
@@ -207,11 +200,10 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerHealth9" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
-                }
-                ,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                },
                 new CardDisplayData
                 {
                     Title = "Fortification IX",
@@ -221,11 +213,10 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { "TowerHealth10" },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
-                }
-                ,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
+                },
                 new CardDisplayData
                 {
                     Title = "Fortification X",
@@ -235,9 +226,9 @@ namespace AllCardsLib.CardData.Buffs
                     UnlockedByDefault = false,
                     Unlocks = new List<string> { },
                     Unlocked = false,
-                    Category = CardCategory.Buff,
-                    AcquisitionType = CardAcquisitionType.StoreAppliesPermanent,
-                    AssociatedTowerOrBuilding = null,
+                    Category = Category.Buff,
+                    Subcategory = Subcategory.TowerBuff,
+                    AcquisitionType = AcquisitionType.StoreAppliesPermanent,
                 }
             });
         }

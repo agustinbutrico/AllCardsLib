@@ -1,0 +1,11 @@
+{
+    "name": "CardDataLib",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/agustinbutrico/CardDataLib",
+    "description": "Adds all the card data to be used in the game. Apllies fixes to cards in game.",
+    "dependencies": [
+        "bbepis-BepInEx_Rogue_Tower-5.4.1900",
+        "AgusBut-TexturesLib.Shared-1.0.0",
+        "AgusBut-TexturesLib.Cards-1.0.0"
+    ]
+}

@@ -16,7 +16,7 @@ namespace CardsShared
         ManaSiphon, Mine, ManaBank, HauntedHouse, University,
         DrawBuff, GoldBuff, ManaBuff, CritsBuff, TowerBuff, TreeBuff,
         MonsterHealthBuff, MonsterArmorBuff, MonsterShieldBuff, MonsterDamageBuff,
-        MonsterMoveSpeedBuff, MonsterHasteBuff, MonsterTowerDamageBuff, MonsterGoldDebuff
+        MonsterMoveSpeedBuff, MonsterSlowDebuff, MonsterHasteBuff, MonsterTowerDamageBuff, MonsterGoldDebuff
     }
 
     [System.Flags]

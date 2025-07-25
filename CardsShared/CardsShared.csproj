@@ -8,11 +8,11 @@
 
 	<ItemGroup>
 		<Reference Include="UnityEngine">
-			<HintPath>..\AllCardsLib\libs\UnityEngine.dll</HintPath>
+			<HintPath>..\CardDataLib\Libs\UnityEngine.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="UnityEngine.CoreModule">
-			<HintPath>..\AllCardsLib\libs\UnityEngine.CoreModule.dll</HintPath>
+			<HintPath>..\CardDataLib\Libs\UnityEngine.CoreModule.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 	</ItemGroup>
